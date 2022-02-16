@@ -20,9 +20,15 @@ if (invTimer < 0)
 xVector = xSpeed * xDirection
 
 if (place_meeting(x + xVector, y, oWall))
-{
-	xDirection = -xDirection;
-	turnTimer = 2.5;
-}
+	{
+		xDirection = -xDirection;
+		turnTimer = 2.5;
+	}
+	
+	if (place_meeting(x + xVector, y, oPlayer))
+	{
+		xDirection = -xDirection;
+		turnTimer = 2.5;
+	}
 
 x = x + xVector;

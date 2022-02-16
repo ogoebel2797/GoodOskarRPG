@@ -18,3 +18,11 @@ if (abs(oPlayer.x - x) < 128)
 {
 	x = x + xVector
 }
+
+yDirection = sign(oPlayer.y - y);
+yVector = ySpeed * yDirection;
+
+if (abs(oPlayer.y - y) < 128)
+{
+	y = y + yVector
+}

@@ -31,3 +31,7 @@ levelTimer = 100;
 
 //invincibility timer
 invTimer = 2;
+
+omniDirection = 0;
+dashing = false;
+dashTimer = 0.3;

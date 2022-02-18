@@ -13,3 +13,6 @@ ySpeed = 2;
 //stun variables
 stun = false;
 stunTimer = 2;
+
+//timer
+shotTimer = 3;

@@ -1,15 +1,10 @@
-/// @description movement
-//code that runs every frame
+/// @description Insert description here
+// You can write your code in this editor
 
-if isInvincible
-{
-	invTimer -= 1/room_speed;
-	if invTimer <= 0
-	{
-		isInvincible = false;
-	}
-
-}
+yDirection = down - up;
+yVector = 4 * yDirection;
+xDirection = right - left;
+xVector = xSpeed * xDirection;
 
 //keyboard check and imputs
 right = keyboard_check(vk_right);
@@ -208,9 +203,3 @@ else
 //otherwise move normal
 y = y + yVector;
 }
-
-//die in a pit
-if (y >= room_height)
-	{
-		PlayerDeath();
-	}

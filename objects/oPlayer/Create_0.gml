@@ -18,8 +18,6 @@ xVector = 0;
 
 //coins and points
 
-global.coins = 0;
-
 //invincibility
 isInvincible = false;
 
@@ -33,5 +31,7 @@ levelTimer = 100;
 invTimer = 2;
 
 omniDirection = 0;
+enterShip = false;
+enteredShip = false;
 dashing = false;
 dashTimer = 0.3;

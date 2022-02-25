@@ -32,6 +32,13 @@ invTimer = 2;
 
 omniDirection = 0;
 enterShip = false;
+
+mouseX = mouse_x;
+mouseY = mouse_y;
+hookActive = false;
+
+haveHook = false;
+
 enteredShip = false;
 dashing = false;
 dashTimer = 0.3;

@@ -1,5 +1,30 @@
 /// @description movement
 //code that runs every frame
+if haveHook
+{
+	if (mouse_check_button_pressed(mb_left))
+	{
+		mouseX = mouse_x;
+		mouseY = mouse_y;
+		if (place_meeting(mouseX, mouseY, oWall))
+		{
+			hookActive = true;
+		}
+	}
+
+	if hookActive
+	{
+		x += (mouseX - x) * 0.1;
+		y += (mouseY - y) * 0.1;
+	}
+
+	if (mouse_check_button_released(mb_left))
+	{
+		hookActive = false;
+	}
+}
+
+
 
 if isInvincible
 {
@@ -14,8 +39,8 @@ if isInvincible
 //keyboard check and imputs
 right = keyboard_check(vk_right);
 left = keyboard_check(vk_left);
-up = keyboard_check(vk_up)
-down = keyboard_check(vk_down)
+up = keyboard_check(vk_up);
+down = keyboard_check(vk_down);
 dash = keyboard_check_pressed(vk_control);
 
 if left
@@ -106,6 +131,7 @@ else
 			}
 			xVector = 0;
 	}
+}
 	if (place_meeting(x + xVector, y, oTurret))
 	{
 		//check if 1 pixel to the left or right of us until we collide with oWall
@@ -120,7 +146,6 @@ else
 	
 //otherwise move normal
 x = x + xVector;
-}
 
 //Vertical Movement
 yDirection = down - up;
@@ -193,6 +218,7 @@ else
 			}
 			yVector = 0;
 	}
+}
 	
 	if (place_meeting(y + yVector, x, oTurret))
 	{
@@ -207,10 +233,3 @@ else
 	}
 //otherwise move normal
 y = y + yVector;
-}
-
-//die in a pit
-if (y >= room_height)
-	{
-		PlayerDeath();
-	}

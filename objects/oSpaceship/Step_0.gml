@@ -1,6 +1,30 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if haveHook
+{
+	if (mouse_check_button_pressed(mb_left))
+	{
+		mouseX = mouse_x;
+		mouseY = mouse_y;
+		if (place_meeting(mouseX, mouseY, oWall))
+		{
+			hookActive = true;
+		}
+	}
+
+	if hookActive
+	{
+		x += (mouseX - x) * 0.1;
+		y += (mouseY - y) * 0.1;
+	}
+
+	if (mouse_check_button_released(mb_left))
+	{
+		hookActive = false;
+	}
+}
+
 yDirection = down - up;
 yVector = 4 * yDirection;
 xDirection = right - left;

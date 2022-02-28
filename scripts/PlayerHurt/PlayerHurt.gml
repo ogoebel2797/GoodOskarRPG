@@ -10,9 +10,9 @@ function PlayerHurt()
 		alarm_set(0,2*room_speed);
 		oPlayer.hp --;
 		if (oPlayer.hp < 1)
-			{
-				PlayerDeath();
-			}
+		{
+			PlayerDeath();
+		}
 	}
 
 }
@@ -21,4 +21,5 @@ function PlayerHurt()
 function PlayerDeath()
 {
 	room_restart();
+	oHUD.leveltimer = 100;
 }

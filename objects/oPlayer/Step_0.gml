@@ -1,5 +1,6 @@
 /// @description movement
 //code that runs every frame
+
 if haveHook
 {
 	if (mouse_check_button_pressed(mb_left))
@@ -22,18 +23,6 @@ if haveHook
 	{
 		hookActive = false;
 	}
-}
-
-
-
-if isInvincible
-{
-	invTimer -= 1/room_speed;
-	if invTimer <= 0
-	{
-		isInvincible = false;
-	}
-
 }
 
 //keyboard check and imputs

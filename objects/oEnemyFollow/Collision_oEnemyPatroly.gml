@@ -1,8 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-levelTimer -= 1/room_speed;
 
-if (levelTimer < 1)
-{
-	room_restart();
-}
+stun = true;
+xSpeed = 0;
+ySpeed = 0;

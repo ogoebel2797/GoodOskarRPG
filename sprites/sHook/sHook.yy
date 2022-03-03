@@ -111,7 +111,7 @@
     "spriteId": {"name":"sHook","path":"sprites/sHook/sHook.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 60.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

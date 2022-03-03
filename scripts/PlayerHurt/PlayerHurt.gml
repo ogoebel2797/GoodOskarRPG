@@ -21,5 +21,5 @@ function PlayerHurt()
 function PlayerDeath()
 {
 	room_restart();
-	oHUD.leveltimer = 100;
+	oHUD.levelTimer = 100;
 }

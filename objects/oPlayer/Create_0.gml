@@ -42,3 +42,11 @@ haveHook = false;
 enteredShip = false;
 dashing = false;
 dashTimer = 0.3;
+
+enum states
+{
+	walking,
+	jumping
+}
+
+state = states.walking;

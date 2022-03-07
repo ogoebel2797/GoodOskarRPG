@@ -10,4 +10,8 @@ function StatePlayerWalking()
 	
 	//conditions for leaving the state
 	
+	if (xDirection =0)
+	{
+		state = states.idle;
+	}
 }

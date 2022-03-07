@@ -1,7 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function CheckInputs()
-
 {
 	//keyboard check and imputs
 	right = keyboard_check(vk_right);
@@ -9,6 +8,7 @@ function CheckInputs()
 	up = keyboard_check(vk_up);
 	down = keyboard_check(vk_down);
 	dash = keyboard_check_pressed(vk_control);
+	xDirection = right - left;
 
 	if left
 	{

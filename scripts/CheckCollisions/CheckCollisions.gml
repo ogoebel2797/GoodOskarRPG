@@ -6,8 +6,12 @@ function CheckCollisionsX()
 	CheckInputs();
 	//Horizontal Movement
 	xDirection = right - left;
+	if (xDirection != 0)
+	{
+		image_xscale = xDirection;
+	}
+
 	xVector = xSpeed * xDirection;
-	
 	if dash
 	{
 		dashing = true;

@@ -2,10 +2,8 @@
 
 //code that runs every frame
 
-if (state == states.walking)
-	{
-		StatePlayerWalking();
-	}
+script_execute(state_array[state]);
+sprite_index = sprite_array[state];
 
 if haveHook
 {

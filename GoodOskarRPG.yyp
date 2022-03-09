@@ -15,6 +15,7 @@
     {"id":{"name":"level2","path":"rooms/level2/level2.yy",},"order":1,},
     {"id":{"name":"sCoin","path":"sprites/sCoin/sCoin.yy",},"order":1,},
     {"id":{"name":"sGoodCoin","path":"sprites/sGoodCoin/sGoodCoin.yy",},"order":10,},
+    {"id":{"name":"sMrSquiggles","path":"sprites/sMrSquiggles/sMrSquiggles.yy",},"order":14,},
     {"id":{"name":"sHook","path":"sprites/sHook/sHook.yy",},"order":8,},
     {"id":{"name":"StatePlayerWalking","path":"scripts/StatePlayerWalking/StatePlayerWalking.yy",},"order":4,},
     {"id":{"name":"sProjectile","path":"sprites/sProjectile/sProjectile.yy",},"order":6,},
@@ -84,7 +85,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.3.574",
+    "IDEVersion": "2.3.7.606",
   },
   "resourceVersion": "1.4",
   "name": "GoodOskarRPG",

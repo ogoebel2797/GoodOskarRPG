@@ -2,8 +2,8 @@
 // You can write your code in this editor
 
 // how many pixels per frame you want our player to move
-xSpeed = 6;
-ySpeed = 6;
+xSpeed = 5;
+ySpeed = 5;
 
 //what direction the player is moving. 1 = right, -1 = left, 0 = not moving at all {facing front???]
 xDirection = 0;
@@ -21,7 +21,7 @@ xVector = 0;
 isInvincible = false;
 
 //health points
-hp = 10
+hp = 8
 
 //level timer
 levelTimer = 100;
@@ -30,7 +30,6 @@ levelTimer = 100;
 invTimer = 2;
 
 omniDirection = 0;
-enterGobbler = false;
 
 mouseX = mouse_x;
 mouseY = mouse_y;
@@ -39,6 +38,22 @@ hookActive = false;
 
 haveHook = false;
 
-enteredGobbler = false;
+enteredShip = false;
 dashing = false;
-dashTimer = 0.3;
+dashTimer = 0.1;
+
+enum gstates
+{
+	gwalking,
+	gjumping,
+	gidle
+}
+
+state = gstates.gwalking;
+
+state_array[gstates.gwalking] = StateGobblerWalking;
+state_array[gstates.gjumping] = StateGobblerJumping;
+state_array[gstates.gidle] = StateGobblerIdle;
+
+sprite_array[gstates.gwalking] = sGreenGobblerWalking;
+sprite_array[gstates.gidle] = sGreenGobblerIdle;

@@ -31,7 +31,7 @@ levelTimer = 100;
 invTimer = 2;
 
 omniDirection = 0;
-enterShip = false;
+enterGobbler = false;
 
 mouseX = mouse_x;
 mouseY = mouse_y;
@@ -41,6 +41,7 @@ hookActive = false;
 haveHook = false;
 
 enteredShip = false;
+enteredGobbler = false;
 dashing = false;
 dashTimer = 0.3;
 

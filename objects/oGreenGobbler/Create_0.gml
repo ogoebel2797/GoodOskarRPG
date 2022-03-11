@@ -45,14 +45,12 @@ dashTimer = 0.1;
 enum gstates
 {
 	gwalking,
-	gjumping,
 	gidle
 }
 
 state = gstates.gwalking;
 
 state_array[gstates.gwalking] = StateGobblerWalking;
-state_array[gstates.gjumping] = StateGobblerJumping;
 state_array[gstates.gidle] = StateGobblerIdle;
 
 sprite_array[gstates.gwalking] = sGreenGobblerWalking;

@@ -1,10 +1,9 @@
-/// @description creating variables
-//code that runs one when oPlayer is created
-
+/// @description Insert description here
+// You can write your code in this editor
 
 // how many pixels per frame you want our player to move
-xSpeed = 4;
-ySpeed = 4;
+xSpeed = 5;
+ySpeed = 5;
 
 //what direction the player is moving. 1 = right, -1 = left, 0 = not moving at all {facing front???]
 xDirection = 0;
@@ -22,7 +21,7 @@ xVector = 0;
 isInvincible = false;
 
 //health points
-hp = 6
+hp = 8
 
 //level timer
 levelTimer = 100;
@@ -31,31 +30,25 @@ levelTimer = 100;
 invTimer = 2;
 
 omniDirection = 0;
-enterGobbler = false;
 
 mouseX = mouse_x;
 mouseY = mouse_y;
 hookActive = false;
 
-
 haveHook = false;
 
 enteredShip = false;
-enteredGobbler = false;
-enteredLean = false;
-dashing = false;
-dashTimer = 0.3;
 
-enum states
+enum lstates
 {
-	walking,
-	idle
+	lwalking,
+	lidle
 }
 
-state = states.walking;
+state = lstates.lwalking;
 
-state_array[states.walking] = StatePlayerWalking;
-state_array[states.idle] = StatePlayerIdle;
+state_array[lstates.lwalking] = StateLeanWalking;
+state_array[lstates.lidle] = StateLeanIdle;
 
-sprite_array[states.walking] = sPlayerWalking;
-sprite_array[states.idle] = sPlayerIdle;
+sprite_array[lstates.lwalking] = sLeanManWalking;
+sprite_array[lstates.lidle] = sLeanManIdle;

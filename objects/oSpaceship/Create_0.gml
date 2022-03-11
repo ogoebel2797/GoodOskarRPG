@@ -40,5 +40,3 @@ hookActive = false;
 haveHook = false;
 
 enteredGobbler = false;
-dashing = false;
-dashTimer = 0.3;

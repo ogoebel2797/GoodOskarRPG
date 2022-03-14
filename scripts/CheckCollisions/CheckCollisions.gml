@@ -12,35 +12,7 @@ function CheckCollisionsX()
 	}
 
 	xVector = xSpeed * xDirection;
-	if dash
-	{
-		dashing = true;
-	}
 
-	if dashing
-	{
-		dashTimer -= 1/room_speed;
-		if dashTimer <= 0
-		{
-			dashing = false;
-			dashTimer = 0.3;
-		}
-		if (!place_empty(x + xVector, y))
-		{
-		xVector = 0;
-		}
-		//otherwise move fast
-		if omniDirection = -1
-		{
-			x = x - 10;
-		}
-		if omniDirection = 1
-		{
-			x = x + 10;
-		}
-	}
-
-	else
 	{
 	
 		if (place_meeting(x + xVector, y, oWall))
@@ -76,35 +48,7 @@ x = x + xVector;
 function CheckCollisionsY()
 {
 	CheckInputs();
-	if dash
-	{
-		dashing = true;
-	}
-
-	if dashing
-	{
-		dashTimer -= 1/room_speed;
-		if dashTimer <= 0
-		{
-			dashing = false;
-			dashTimer = 0.3;
-		}
-		if (!place_empty(y + yVector, x))
-		{
-		yVector = 0;
-		}
-		//otherwise move fast
-		if omniDirection = -2
-		{
-			y = y - 10;
-		}
-		if omniDirection = 2
-		{
-			y = y + 10;
-		}
-	}
-
-	else
+	
 	{
 	
 		//Vertical Movement

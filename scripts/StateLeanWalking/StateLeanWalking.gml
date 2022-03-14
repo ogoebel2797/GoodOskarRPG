@@ -10,8 +10,8 @@ function StateLeanWalking()
 	
 	//conditions for leaving the state
 	
-	if (xDirection !=0)
+	if (xDirection =0)
 	{
-		state = lstates.lwalking;
+		state = lstates.lidle;
 	}
 }

@@ -15,13 +15,11 @@ yDirection = 0;
 
 xVector = 0;
 
-//coins and points
+//health points
+hp = 8
 
 //invincibility
 isInvincible = false;
-
-//health points
-hp = 8
 
 //level timer
 levelTimer = 100;

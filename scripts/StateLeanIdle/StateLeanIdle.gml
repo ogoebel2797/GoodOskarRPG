@@ -5,8 +5,8 @@ function StateLeanIdle()
 	CheckInputs();
 	CheckCollisionsY();
 	
-	if (xDirection =0)
+	if (xDirection !=0)
 	{
-		state = lstates.lidle;
+		state = lstates.lwalking;
 	}
 }

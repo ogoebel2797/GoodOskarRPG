@@ -30,6 +30,12 @@
     {"compositeImage":{"FrameId":{"name":"780d1789-2bde-417b-84e0-1f85cc628cd5","path":"sprites/sGreenGobblerWalking/sGreenGobblerWalking.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"780d1789-2bde-417b-84e0-1f85cc628cd5","path":"sprites/sGreenGobblerWalking/sGreenGobblerWalking.yy",},"LayerId":{"name":"5c016026-7011-4cf5-8eb3-edab3060b001","path":"sprites/sGreenGobblerWalking/sGreenGobblerWalking.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sGreenGobblerWalking","path":"sprites/sGreenGobblerWalking/sGreenGobblerWalking.yy",},"resourceVersion":"1.0","name":"780d1789-2bde-417b-84e0-1f85cc628cd5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"05665680-2d30-44e3-9aa7-c09fc6a6ed68","path":"sprites/sGreenGobblerWalking/sGreenGobblerWalking.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"05665680-2d30-44e3-9aa7-c09fc6a6ed68","path":"sprites/sGreenGobblerWalking/sGreenGobblerWalking.yy",},"LayerId":{"name":"5c016026-7011-4cf5-8eb3-edab3060b001","path":"sprites/sGreenGobblerWalking/sGreenGobblerWalking.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sGreenGobblerWalking","path":"sprites/sGreenGobblerWalking/sGreenGobblerWalking.yy",},"resourceVersion":"1.0","name":"05665680-2d30-44e3-9aa7-c09fc6a6ed68","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"74695e3d-b5ba-419e-b324-8270a6ac13b5","path":"sprites/sGreenGobblerWalking/sGreenGobblerWalking.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"74695e3d-b5ba-419e-b324-8270a6ac13b5","path":"sprites/sGreenGobblerWalking/sGreenGobblerWalking.yy",},"LayerId":{"name":"5c016026-7011-4cf5-8eb3-edab3060b001","path":"sprites/sGreenGobblerWalking/sGreenGobblerWalking.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sGreenGobblerWalking","path":"sprites/sGreenGobblerWalking/sGreenGobblerWalking.yy",},"resourceVersion":"1.0","name":"74695e3d-b5ba-419e-b324-8270a6ac13b5","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sGreenGobblerWalking","path":"sprites/sGreenGobblerWalking/sGreenGobblerWalking.yy",},
@@ -39,13 +45,15 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 2.0,
+    "length": 4.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"e27ab7a4-e668-4e03-89ff-7186a7f5c3a3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"02724128-6770-4713-b7da-8ab6974f03e3","path":"sprites/sGreenGobblerWalking/sGreenGobblerWalking.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"c8f586a2-8504-4292-aa47-1e976908d0f4","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"780d1789-2bde-417b-84e0-1f85cc628cd5","path":"sprites/sGreenGobblerWalking/sGreenGobblerWalking.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"578b760f-b068-4362-bfbb-ac7499bbab33","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"05665680-2d30-44e3-9aa7-c09fc6a6ed68","path":"sprites/sGreenGobblerWalking/sGreenGobblerWalking.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3fe78c55-2586-4669-9e68-c811e0a2d373","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"74695e3d-b5ba-419e-b324-8270a6ac13b5","path":"sprites/sGreenGobblerWalking/sGreenGobblerWalking.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,

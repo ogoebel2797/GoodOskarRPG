@@ -9,4 +9,9 @@ function StateGobblerIdle()
 	{
 		state = gstates.gwalking;
 	}
+	
+	if (dashing)
+	{
+		state = gstates.gdashing;
+	}
 }

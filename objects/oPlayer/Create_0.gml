@@ -52,7 +52,7 @@ enum states
 	idle
 }
 
-state = states.walking;
+state = states.idle;
 
 state_array[states.walking] = StatePlayerWalking;
 state_array[states.idle] = StatePlayerIdle;

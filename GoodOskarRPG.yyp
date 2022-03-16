@@ -1,9 +1,11 @@
 {
   "resources": [
     {"id":{"name":"sLeanManIdle","path":"sprites/sLeanManIdle/sLeanManIdle.yy",},"order":18,},
+    {"id":{"name":"StateGobblerDashing","path":"scripts/StateGobblerDashing/StateGobblerDashing.yy",},"order":13,},
     {"id":{"name":"sFlag","path":"sprites/sFlag/sFlag.yy",},"order":4,},
     {"id":{"name":"oProjectile","path":"objects/oProjectile/oProjectile.yy",},"order":9,},
     {"id":{"name":"PlayerHurt","path":"scripts/PlayerHurt/PlayerHurt.yy",},"order":1,},
+    {"id":{"name":"sGreenGobblerWalking","path":"sprites/sGreenGobblerWalking/sGreenGobblerWalking.yy",},"order":20,},
     {"id":{"name":"StateGobblerIdle","path":"scripts/StateGobblerIdle/StateGobblerIdle.yy",},"order":7,},
     {"id":{"name":"sGoodWall","path":"sprites/sGoodWall/sGoodWall.yy",},"order":9,},
     {"id":{"name":"StateGobblerWalking","path":"scripts/StateGobblerWalking/StateGobblerWalking.yy",},"order":9,},
@@ -40,7 +42,7 @@
     {"id":{"name":"oSpaceship","path":"objects/oSpaceship/oSpaceship.yy",},"order":13,},
     {"id":{"name":"sTurret","path":"sprites/sTurret/sTurret.yy",},"order":2,},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":8,},
-    {"id":{"name":"sGreenGobblerWalking","path":"sprites/sGreenGobblerWalking/sGreenGobblerWalking.yy",},"order":16,},
+    {"id":{"name":"sGreenGobblerDashing","path":"sprites/sGreenGobblerDashing/sGreenGobblerDashing.yy",},"order":16,},
     {"id":{"name":"oStartingHUD","path":"objects/oStartingHUD/oStartingHUD.yy",},"order":15,},
     {"id":{"name":"level0","path":"rooms/level0/level0.yy",},"order":2,},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":3,},

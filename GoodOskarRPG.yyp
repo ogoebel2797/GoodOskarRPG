@@ -7,6 +7,7 @@
     {"id":{"name":"PlayerHurt","path":"scripts/PlayerHurt/PlayerHurt.yy",},"order":1,},
     {"id":{"name":"sGreenGobblerWalking","path":"sprites/sGreenGobblerWalking/sGreenGobblerWalking.yy",},"order":20,},
     {"id":{"name":"StateGobblerIdle","path":"scripts/StateGobblerIdle/StateGobblerIdle.yy",},"order":7,},
+    {"id":{"name":"oPlayerSprite","path":"objects/oPlayerSprite/oPlayerSprite.yy",},"order":20,},
     {"id":{"name":"sGoodWall","path":"sprites/sGoodWall/sGoodWall.yy",},"order":9,},
     {"id":{"name":"StateGobblerWalking","path":"scripts/StateGobblerWalking/StateGobblerWalking.yy",},"order":9,},
     {"id":{"name":"oLean","path":"objects/oLean/oLean.yy",},"order":19,},

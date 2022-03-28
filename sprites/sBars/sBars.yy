@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 30,
+  "bbox_right": 31,
   "bbox_top": 0,
-  "bbox_bottom": 25,
+  "bbox_bottom": 31,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 31,
-  "height": 26,
+  "width": 32,
+  "height": 32,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3a0df00d-8362-49b6-9c2a-6e389cc743b3","path":"sprites/sMrSquiggles/sMrSquiggles.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3a0df00d-8362-49b6-9c2a-6e389cc743b3","path":"sprites/sMrSquiggles/sMrSquiggles.yy",},"LayerId":{"name":"d3da4c7a-5fed-4072-aa53-73f3ee65390b","path":"sprites/sMrSquiggles/sMrSquiggles.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sMrSquiggles","path":"sprites/sMrSquiggles/sMrSquiggles.yy",},"resourceVersion":"1.0","name":"3a0df00d-8362-49b6-9c2a-6e389cc743b3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c2be53f4-e38f-4308-80b6-cd5d75142d85","path":"sprites/sBars/sBars.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c2be53f4-e38f-4308-80b6-cd5d75142d85","path":"sprites/sBars/sBars.yy",},"LayerId":{"name":"3299ca63-565f-4370-9a0e-5fde94c391de","path":"sprites/sBars/sBars.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sBars","path":"sprites/sBars/sBars.yy",},"resourceVersion":"1.0","name":"c2be53f4-e38f-4308-80b6-cd5d75142d85","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sMrSquiggles","path":"sprites/sMrSquiggles/sMrSquiggles.yy",},
+    "spriteId": {"name":"sBars","path":"sprites/sBars/sBars.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 60.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"1abab1c0-1e0c-4d98-9453-04d19caeaffa","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3a0df00d-8362-49b6-9c2a-6e389cc743b3","path":"sprites/sMrSquiggles/sMrSquiggles.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e028bda1-298e-4cf6-9f1a-a44e160422c6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c2be53f4-e38f-4308-80b6-cd5d75142d85","path":"sprites/sBars/sBars.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,18 +54,18 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 15,
-    "yorigin": 13,
+    "xorigin": 16,
+    "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sMrSquiggles","path":"sprites/sMrSquiggles/sMrSquiggles.yy",},
+    "parent": {"name":"sBars","path":"sprites/sBars/sBars.yy",},
     "resourceVersion": "1.3",
-    "name": "sMrSquiggles",
+    "name": "sBars",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d3da4c7a-5fed-4072-aa53-73f3ee65390b","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3299ca63-565f-4370-9a0e-5fde94c391de","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sMrSquiggles",
+  "name": "sBars",
   "tags": [],
   "resourceType": "GMSprite",
 }

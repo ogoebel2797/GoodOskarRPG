@@ -1,6 +1,9 @@
 {
-  "spriteId": null,
-  "solid": true,
+  "spriteId": {
+    "name": "sHoloWall",
+    "path": "sprites/sHoloWall/sHoloWall.yy",
+  },
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -28,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oInvisibleWall",
+  "name": "oHoloWall",
   "tags": [],
   "resourceType": "GMObject",
 }

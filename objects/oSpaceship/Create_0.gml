@@ -37,6 +37,6 @@ mouseY = mouse_y;
 hookActive = false;
 
 
-haveHook = false;
+haveHook = true;
 
 enteredGobbler = false;

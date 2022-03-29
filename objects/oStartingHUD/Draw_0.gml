@@ -9,6 +9,7 @@ draw_text(32,350, "Drink (Interact With) The Lean To Turn Into Lean Man");
 draw_text(32,400, "Dont Let The Projectiles Hit You");
 draw_text(32,450, "Hop In (Interact With) The Spaceship To Grapple Onto Walls");
 draw_text(32,500, "Don't Let The Turrets Shoot At You");
+draw_text(32,550, "When You See Mr. Squiggles, RUN");
 
 //Controls
 draw_text(700,32, "Movement Controls:");

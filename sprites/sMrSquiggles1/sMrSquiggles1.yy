@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_right": 38,
   "bbox_top": 0,
-  "bbox_bottom": 31,
+  "bbox_bottom": 32,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 32,
-  "height": 32,
+  "width": 39,
+  "height": 33,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"105e223d-f690-4ed6-baf6-14562aebe1aa","path":"sprites/sGoodWall/sGoodWall.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"105e223d-f690-4ed6-baf6-14562aebe1aa","path":"sprites/sGoodWall/sGoodWall.yy",},"LayerId":{"name":"dbab5d36-c6b0-46c2-9692-045f092f1a62","path":"sprites/sGoodWall/sGoodWall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sGoodWall","path":"sprites/sGoodWall/sGoodWall.yy",},"resourceVersion":"1.0","name":"105e223d-f690-4ed6-baf6-14562aebe1aa","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3a0df00d-8362-49b6-9c2a-6e389cc743b3","path":"sprites/sMrSquiggles1/sMrSquiggles1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3a0df00d-8362-49b6-9c2a-6e389cc743b3","path":"sprites/sMrSquiggles1/sMrSquiggles1.yy",},"LayerId":{"name":"d3da4c7a-5fed-4072-aa53-73f3ee65390b","path":"sprites/sMrSquiggles1/sMrSquiggles1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sMrSquiggles1","path":"sprites/sMrSquiggles1/sMrSquiggles1.yy",},"resourceVersion":"1.0","name":"3a0df00d-8362-49b6-9c2a-6e389cc743b3","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sGoodWall","path":"sprites/sGoodWall/sGoodWall.yy",},
+    "spriteId": {"name":"sMrSquiggles1","path":"sprites/sMrSquiggles1/sMrSquiggles1.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 60.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"560c3657-5c9f-4f1b-9c02-93d0467937c8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"105e223d-f690-4ed6-baf6-14562aebe1aa","path":"sprites/sGoodWall/sGoodWall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b9884e00-1e6d-4c56-9b97-585ac54d4de3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3a0df00d-8362-49b6-9c2a-6e389cc743b3","path":"sprites/sMrSquiggles1/sMrSquiggles1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,18 +54,18 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 16,
+    "xorigin": 19,
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sGoodWall","path":"sprites/sGoodWall/sGoodWall.yy",},
+    "parent": {"name":"sMrSquiggles1","path":"sprites/sMrSquiggles1/sMrSquiggles1.yy",},
     "resourceVersion": "1.3",
-    "name": "sGoodWall",
+    "name": "sMrSquiggles1",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"dbab5d36-c6b0-46c2-9692-045f092f1a62","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d3da4c7a-5fed-4072-aa53-73f3ee65390b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sGoodWall",
+  "name": "sMrSquiggles1",
   "tags": [],
   "resourceType": "GMSprite",
 }

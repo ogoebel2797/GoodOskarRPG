@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"sLeanManIdle","path":"sprites/sLeanManIdle/sLeanManIdle.yy",},"order":18,},
+    {"id":{"name":"oPlayerDialogue4","path":"objects/oPlayerDialogue4/oPlayerDialogue4.yy",},"order":37,},
     {"id":{"name":"oMrSquiggles1","path":"objects/oMrSquiggles1/oMrSquiggles1.yy",},"order":29,},
     {"id":{"name":"StateGobblerDashing","path":"scripts/StateGobblerDashing/StateGobblerDashing.yy",},"order":13,},
     {"id":{"name":"sFlag","path":"sprites/sFlag/sFlag.yy",},"order":4,},
@@ -126,7 +127,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.7.606",
+    "IDEVersion": "2.3.3.574",
   },
   "resourceVersion": "1.4",
   "name": "GoodOskarRPG",

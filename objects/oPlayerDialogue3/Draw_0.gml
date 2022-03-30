@@ -1,3 +1,3 @@
 //objects
 
-draw_text(800,400, "Again?!");
+draw_text(1100,400, "Again?!");

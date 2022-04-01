@@ -9,6 +9,7 @@
     {"id":{"name":"oBackground","path":"objects/oBackground/oBackground.yy",},"order":26,},
     {"id":{"name":"oProjectile","path":"objects/oProjectile/oProjectile.yy",},"order":9,},
     {"id":{"name":"PlayerHurt","path":"scripts/PlayerHurt/PlayerHurt.yy",},"order":1,},
+    {"id":{"name":"StateLeanSliding","path":"scripts/StateLeanSliding/StateLeanSliding.yy",},"order":14,},
     {"id":{"name":"sGreenGobblerWalking","path":"sprites/sGreenGobblerWalking/sGreenGobblerWalking.yy",},"order":20,},
     {"id":{"name":"StateGobblerIdle","path":"scripts/StateGobblerIdle/StateGobblerIdle.yy",},"order":7,},
     {"id":{"name":"oPlayerSprite","path":"objects/oPlayerSprite/oPlayerSprite.yy",},"order":20,},

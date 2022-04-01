@@ -16,10 +16,10 @@ if slide
 	if sliding
 	{
 		slideTimer -= 1/room_speed;
-		if dashTimer <= 0
+		if slideTimer <= 0
 		{
-			dashing = false;
-			dashTimer = 0.3;
+			sliding = false;
+			slideTimer = 0.3;
 		}
 		if (!place_empty(x + xVector, y))
 		{
@@ -28,26 +28,26 @@ if slide
 		//otherwise move fast
 		if omniDirection = -1
 		{
-			x = x - 10;
+
 		}
 		if omniDirection = 1
 		{
-			x = x + 10;
+
 		}
 	}
 	
-if dash
+if slide
 	{
-		dashing = true;
+		sliding = true;
 	}
 
-	if dashing
+	if sliding
 	{
-		dashTimer -= 1/room_speed;
-		if dashTimer <= 0
+		slideTimer -= 1/room_speed;
+		if slideTimer <= 0
 		{
-			dashing = false;
-			dashTimer = 0.3;
+			sliding = false;
+			slideTimer = 0.3;
 		}
 		if (!place_empty(y + yVector, x))
 		{
@@ -56,11 +56,11 @@ if dash
 		//otherwise move fast
 		if omniDirection = -2
 		{
-			y = y - 10;
+
 		}
 		if omniDirection = 2
 		{
-				y = y + 10;
+
 		}
 	}
 	

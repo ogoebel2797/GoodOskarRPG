@@ -9,6 +9,7 @@ function CheckInputs()
 	down = keyboard_check(vk_down);
 	dash = keyboard_check_pressed(vk_control);
 	slide = keyboard_check_pressed(vk_shift);
+	attack = keyboard_check_pressed(vk_alt);
 	
 	xDirection = right - left;
 

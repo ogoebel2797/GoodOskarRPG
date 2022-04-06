@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sGoodWall","path":"sprites/sGoodWall/sGoodWall.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sGoodWall",
     "tags": [],
     "resourceType": "GMSequence",

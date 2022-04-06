@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sMrSquiggles","path":"sprites/sMrSquiggles/sMrSquiggles.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sMrSquiggles",
     "tags": [],
     "resourceType": "GMSequence",

@@ -1,3 +1,3 @@
 //objects
 
-draw_text(150,900, "If you get stuck, just dash!");
+draw_text(1100,400, "Again?!");

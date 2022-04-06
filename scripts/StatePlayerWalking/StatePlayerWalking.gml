@@ -14,4 +14,9 @@ function StatePlayerWalking()
 	{
 		state = states.idle;
 	}
+
+	if (attack = true)
+	{
+		state = states.attack;
+	}
 }

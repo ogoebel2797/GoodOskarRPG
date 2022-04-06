@@ -1,3 +1,3 @@
 //objects
 
-draw_text(275,900, "Spam Left & Right While Going Up");
+draw_text(500,700, "Dash Up");

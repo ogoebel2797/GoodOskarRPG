@@ -9,4 +9,9 @@ function StatePlayerIdle()
 	{
 		state = states.walking;
 	}
+
+	if (attack = true)
+	{
+		state = states.attack;
+	}
 }

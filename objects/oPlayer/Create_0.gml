@@ -45,17 +45,21 @@ enteredGobbler = false;
 enteredLean = false;
 dashing = false;
 dashTimer = 0.3;
+attack = false;
 
 enum states
 {
 	walking,
+	attack,
 	idle
 }
 
 state = states.idle;
 
 state_array[states.walking] = StatePlayerWalking;
+state_array[states.attack] = StatePlayerAttack;
 state_array[states.idle] = StatePlayerIdle;
 
 sprite_array[states.walking] = sPlayerWalking;
+sprite_array[states.attack] = sPlayerAttackSlash;
 sprite_array[states.idle] = sPlayerIdle;

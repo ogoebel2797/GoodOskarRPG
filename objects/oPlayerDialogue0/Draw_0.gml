@@ -1,3 +1,3 @@
 //objects
 
-draw_text(500,700, "Dash Up");
+draw_text(500,450, "<- Is that lean?");

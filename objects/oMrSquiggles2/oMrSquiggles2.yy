@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sMrSquiggles",
-    "path": "sprites/sMrSquiggles/sMrSquiggles.yy",
+    "name": "sMrSquiggles1",
+    "path": "sprites/sMrSquiggles1/sMrSquiggles1.yy",
   },
   "solid": false,
   "visible": true,
@@ -33,7 +33,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oMrSquiggles",
+  "name": "oMrSquiggles2",
   "tags": [],
   "resourceType": "GMObject",
 }

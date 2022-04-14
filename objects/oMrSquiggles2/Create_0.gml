@@ -1,8 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-levelTimer -= 1/room_speed;
 
-if levelTimer <= 0
-{
-	PlayerDeath();
-}
+xDirection = 1;
+xSpeed = 1;
+yDirection = 1;
+ySpeed = 1;

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sFlag",
-    "path": "sprites/sFlag/sFlag.yy",
+    "name": "sGoodFlag",
+    "path": "sprites/sGoodFlag/sGoodFlag.yy",
   },
   "solid": false,
   "visible": true,

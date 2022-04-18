@@ -1,7 +1,6 @@
 /// @description creating variables
 //code that runs one when oPlayer is created
 
-
 // how many pixels per frame you want our player to move
 xSpeed = 4;
 ySpeed = 4;

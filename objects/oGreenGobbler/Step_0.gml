@@ -9,106 +9,42 @@ script_execute(state_array[state]);
 sprite_index = sprite_array[state];
 
 if dash
-	{
-		dashing = true;
-	}
+{
+	dashing = true;
+}
 
-	if dashing
+if dashing
+{
+	dashTimer -= 1/room_speed;
+	if dashTimer <= 0
 	{
-		dashTimer -= 1/room_speed;
-		if dashTimer <= 0
-		{
-			dashing = false;
-			dashTimer = 0.3;
-		}
-		if (!place_empty(x + xVector, y))
-		{
-		xVector = 0;
-		}
-		//otherwise move fast
-		if omniDirection = -1
-		{
-			x = x - 10;
-		}
-		if omniDirection = 1
-		{
-			x = x + 10;
-		}
+		dashing = false;
+		dashTimer = 0.3;
 	}
-	
-if dash
+	if (!place_empty(x + xVector, y))
 	{
-		dashing = true;
+	xVector = 0;
 	}
-
-	if dashing
+	if (!place_empty(y + yVector, x))
 	{
-		dashTimer -= 1/room_speed;
-		if dashTimer <= 0
-		{
-			dashing = false;
-			dashTimer = 0.3;
-		}
-		if (!place_empty(y + yVector, x))
-		{
-		yVector = 0;
-			}
-		//otherwise move fast
-		if omniDirection = -2
-		{
-			y = y - 10;
-		}
-		if omniDirection = 2
-		{
-				y = y + 10;
-		}
+	yVector = 0;
 	}
-	
-if (place_meeting(x + xVector, y, oWall))
+	//otherwise move fast
+	if omniDirection = -2
 	{
-		//check if 1 pixel to the left or right of us until we collide with oWall
-		// !  means "not"
-		while(!place_meeting(x + xVector, y, oWall))
-			{
-			//only move 1 pixel at a time until you hit a wall
-			x = x + xDirection;
-			}
-			xVector = 0;
+		y = y - 10;
 	}
-	if (place_meeting(x + xVector, y, oTurret))
+	if omniDirection = 2
 	{
-		//check if 1 pixel to the left or right of us until we collide with oWall
-		// !  means "not"
-		while(!place_meeting(x + xVector, y, oTurret))
-			{
-			//only move 1 pixel at a time until you hit a wall
-			x = x + xDirection;
-			}
-			xVector = 0;
+			y = y + 10;
 	}
-
-//check to see if there is a wall, and if there is, stop movement, if there isn't continue movement
-
-if (place_meeting(y + yVector, x, oWall))
+	//otherwise move fast
+	if omniDirection = -1
 	{
-		//check if 1 pixel to the left or right of us until we collide with oWall
-		// !  means "not"
-		while(!place_meeting(y + yVector, x, oWall))
-			{
-			//only move 1 pixel at a time until you hit a wall
-			y = y + yDirection;
-			}
-			yVector = 0;
+		x = x - 10;
 	}
-	
-	if (place_meeting(y + yVector, x, oTurret))
+	if omniDirection = 1
 	{
-		//check if 1 pixel to the left or right of us until we collide with oWall
-		// !  means "not"
-		while(!place_meeting(y + yVector, x, oTurret))
-			{
-			//only move 1 pixel at a time until you hit a wall
-			y = y + yDirection;
-			}
-			yVector = 0;
+		x = x + 10;
 	}
+}

@@ -37,7 +37,7 @@ haveHook = false;
 
 enteredShip = false;
 sliding = false;
-slideTimer = 0.1;
+slideTimer = 1;
 
 enum lstates
 {

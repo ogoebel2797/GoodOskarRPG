@@ -3,7 +3,7 @@
 
 enterGobbler = true;
 
-if enterGobbler and keyboard_check(vk_enter)
+if enterGobbler and keyboard_check(ord("E"))
 {
 	enteredGobbler = true;
 	instance_change(oGreenGobbler, true);

@@ -3,7 +3,7 @@
 
 if haveHook
 {
-	if (mouse_check_button_pressed(mb_left))
+	if (mouse_check_button_pressed(mb_right))
 	{
 		mouseX = mouse_x;
 		mouseY = mouse_y;
@@ -19,7 +19,7 @@ if haveHook
 		y += (mouseY - y) * 0.1;
 	}
 
-	if (mouse_check_button_released(mb_left))
+	if (mouse_check_button_released(mb_right))
 	{
 		hookActive = false;
 	}
@@ -31,10 +31,10 @@ xDirection = right - left;
 xVector = xSpeed * xDirection;
 
 //keyboard check and imputs
-right = keyboard_check(vk_right);
-left = keyboard_check(vk_left);
-up = keyboard_check(vk_up)
-down = keyboard_check(vk_down)
+right = keyboard_check(ord("D"));
+left = keyboard_check(ord("A"));
+up = keyboard_check(ord("W"));
+down = keyboard_check(ord("S"));
 
 if left
 {

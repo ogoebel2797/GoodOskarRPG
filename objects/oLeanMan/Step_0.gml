@@ -33,11 +33,11 @@ if sliding
 	yVector = 0;
 	}
 	//otherwise move fast
-	if omniDirection = -1
+	if omniDirection = -2
 	{
 		ySpeed += (0 - (ySpeed * 2) / 100);
 	}
-	if omniDirection = 1
+	if omniDirection = 2
 	{
 		ySpeed += (0 - (ySpeed * 2) / 100);
 	}

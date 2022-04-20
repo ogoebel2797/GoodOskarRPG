@@ -3,10 +3,10 @@
 function CheckInputs()
 {
 	//keyboard check and imputs
-	right = keyboard_check(vk_right);
-	left = keyboard_check(vk_left);
-	up = keyboard_check(vk_up);
-	down = keyboard_check(vk_down);
+	right = keyboard_check(ord("D"));
+	left = keyboard_check(ord("A"));
+	up = keyboard_check(ord("W"));
+	down = keyboard_check(ord("S"));
 	dash = keyboard_check_pressed(vk_control);
 	slide = keyboard_check_pressed(vk_shift);
 	attack = keyboard_check_pressed(vk_alt);

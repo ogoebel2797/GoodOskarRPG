@@ -7,7 +7,7 @@ sprite_index = sprite_array[state];
 
 if haveHook
 {
-	if (mouse_check_button_pressed(mb_left))
+	if (mouse_check_button_pressed(mb_right))
 	{
 		mouseX = mouse_x;
 		mouseY = mouse_y;
@@ -23,9 +23,22 @@ if haveHook
 		y += (mouseY - y) * 0.1;
 	}
 
-	if (mouse_check_button_released(mb_left))
+	if (mouse_check_button_released(mb_right))
 	{
 		hookActive = false;
+	}
+}
+
+if (mouse_check_button_pressed(mb_left))
+	{
+		mouseX = mouse_x;
+		mouseY = mouse_y;
+		var bullet = instance_create_layer(x, y, "Instances", oPlayerProjectile)
+		with (bullet)
+	{
+		speed = 6;
+		direction = point_direction(x, y, oPlayer.mouseX, oPlayer.mouseY)
+		// move_towards_point(oPlayer.mouseX,oPlayer.mouseY, speed);
 	}
 }
 	

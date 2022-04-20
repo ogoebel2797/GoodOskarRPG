@@ -53,5 +53,5 @@ state_array[lstates.lsliding] = StateLeanSliding;
 state_array[lstates.lidle] = StateLeanIdle;
 
 sprite_array[lstates.lwalking] = sLeanManWalking;
-sprite_array[lstates.lsliding] = sLeanManWalking;
+sprite_array[lstates.lsliding] = sLeanManIdle;
 sprite_array[lstates.lidle] = sLeanManIdle;

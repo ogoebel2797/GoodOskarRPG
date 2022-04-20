@@ -3,7 +3,7 @@
 
 enterLean = true;
 
-if enterLean and keyboard_check(vk_enter)
+if enterLean and keyboard_check(ord("E"))
 {
 	enteredLean = true;
 	instance_change(oLeanMan, true);

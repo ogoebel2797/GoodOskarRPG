@@ -13,12 +13,12 @@ draw_text(32,550, "When You See Mr. Squiggles, RUN");
 
 //Controls
 draw_text(700,32, "Movement Controls:");
-draw_text(700,75, "Up Arrow Key = Up");
-draw_text(700,150, "Down Arrow Key = Down");
-draw_text(700,225, "Left Arrow Key = Left");
-draw_text(700,300, "Right Arrow Key = Right");
+draw_text(700,75, "W = Up");
+draw_text(700,150, "S = Down");
+draw_text(700,225, "A = Left");
+draw_text(700,300, "D = Right");
 draw_text(700,375, "Other Controls:");
 draw_text(700,450, "Control = Dash (When Green Gobbler)");
-draw_text(700,525, "Enter = Interact");
-draw_text(700,600, "Left Click = Grapple (When In Spaceship)");
+draw_text(700,525, "E = Interact");
+draw_text(700,600, "Right Click = Grapple (When In Spaceship)");
 draw_text(700,675, "Run Into The Flag In The Bottom Right Corner To Begin!");

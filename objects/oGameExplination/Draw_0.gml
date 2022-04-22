@@ -20,5 +20,6 @@ draw_text(700,300, "D = Right");
 draw_text(700,375, "Other Controls:");
 draw_text(700,450, "Control = Dash (When Green Gobbler)");
 draw_text(700,525, "E = Interact");
-draw_text(700,600, "Right Click = Grapple (When In Spaceship)");
-draw_text(700,675, "Run Into The Flag In The Bottom Right Corner To Begin!");
+draw_text(700,600, "Left Click = Shoot (When Player/In Spaceship)");
+draw_text(700,675, "Right Click = Grapple (When In Spaceship)");
+draw_text(700,750, "Run Into The Flag In The Bottom Right Corner To Begin!");

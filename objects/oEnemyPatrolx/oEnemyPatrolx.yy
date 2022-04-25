@@ -1,11 +1,14 @@
 {
   "spriteId": {
-    "name": "sEnemy",
-    "path": "sprites/sEnemy/sEnemy.yy",
+    "name": "sLarry",
+    "path": "sprites/sLarry/sLarry.yy",
   },
   "solid": true,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sLarry",
+    "path": "sprites/sLarry/sLarry.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

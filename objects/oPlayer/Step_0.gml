@@ -41,6 +41,11 @@ if (mouse_check_button_pressed(mb_left))
 		// move_towards_point(oPlayer.mouseX,oPlayer.mouseY, speed);
 	}
 }
+
+
+
+
+
 	
 if (place_meeting(x + xVector, y, oWall))
 	{

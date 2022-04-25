@@ -30,20 +30,23 @@ levelTimer = 100;
 invTimer = 2;
 
 omniDirection = 0;
+
 enterGobbler = false;
 
 mouseX = mouse_x;
 mouseY = mouse_y;
+
 hookActive = false;
-
-
 haveHook = false;
+haveSword = false;
 
 enteredShip = false;
 enteredGobbler = false;
 enteredLean = false;
+
 dashing = false;
 dashTimer = 0.3;
+
 attack = false;
 
 enum states

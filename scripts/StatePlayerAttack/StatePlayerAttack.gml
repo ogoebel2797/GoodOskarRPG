@@ -19,4 +19,9 @@ function StatePlayerAttack()
 	{
 		state = states.walking;
 	}
+
+	if (shooting = true)
+	{
+		state = states.shoot;
+	}
 }

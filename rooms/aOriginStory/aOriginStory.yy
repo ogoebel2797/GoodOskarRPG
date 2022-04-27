@@ -24,9 +24,9 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_1E612072","path":"rooms/level0/level0.yy",},
-    {"name":"inst_52564797","path":"rooms/level0/level0.yy",},
-    {"name":"inst_43F16C1F","path":"rooms/level0/level0.yy",},
+    {"name":"inst_1E612072","path":"rooms/aOriginStory/aOriginStory.yy",},
+    {"name":"inst_52564797","path":"rooms/aOriginStory/aOriginStory.yy",},
+    {"name":"inst_43F16C1F","path":"rooms/aOriginStory/aOriginStory.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -54,7 +54,7 @@
     "path": "folders/Rooms.yy",
   },
   "resourceVersion": "1.0",
-  "name": "level0",
+  "name": "aOriginStory",
   "tags": [],
   "resourceType": "GMRoom",
 }

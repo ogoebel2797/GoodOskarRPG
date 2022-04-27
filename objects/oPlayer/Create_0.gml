@@ -1,4 +1,15 @@
 /// @description creating variables
+global.xPos = x;
+global.yPos = y;
+global.isTransitioning = false;
+global.transitionTimer = 1
+global.enterRight = false;
+global.enterLeft = false;
+global.col = 0;
+global.row = 0;
+
+
+
 //code that runs one when oPlayer is created
 
 // how many pixels per frame you want our player to move
@@ -48,12 +59,14 @@ dashing = false;
 dashTimer = 0.3;
 
 attack = false;
+shooting = false;
 
 enum states
 {
 	walking,
 	attack,
-	idle
+	idle,
+	shoot
 }
 
 state = states.idle;
@@ -61,7 +74,9 @@ state = states.idle;
 state_array[states.walking] = StatePlayerWalking;
 state_array[states.attack] = StatePlayerAttack;
 state_array[states.idle] = StatePlayerIdle;
+state_array[states.shoot] = StatePlayerShoot;
 
 sprite_array[states.walking] = sPlayerWalking;
 sprite_array[states.attack] = sPlayerAttackSlash;
 sprite_array[states.idle] = sPlayerIdle;
+sprite_array[states.shoot] = sPlayerShoot;

@@ -1,6 +1,22 @@
 /// @description movement code
 
 //code that runs every frame
+global.xPos = x;
+global.yPos = y;
+
+if global.isTransitioning
+{
+	global.transitionTimer -= 1/room_speed;
+	if global.transitionTimer <=0
+	{
+		global.enterLeft = false;
+		global.enterRight = false;
+		global.isTransitioning = false;
+		global.transitionTimer = 1;
+	}
+}
+
+
 
 script_execute(state_array[state]);
 sprite_index = sprite_array[state];
@@ -28,8 +44,8 @@ if haveHook
 		hookActive = false;
 	}
 }
-
-if (mouse_check_button_pressed(mb_left))
+	
+if shoot
 	{
 		mouseX = mouse_x;
 		mouseY = mouse_y;
@@ -42,11 +58,6 @@ if (mouse_check_button_pressed(mb_left))
 	}
 }
 
-
-
-
-
-	
 if (place_meeting(x + xVector, y, oWall))
 	{
 		//check if 1 pixel to the left or right of us until we collide with oWall

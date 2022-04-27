@@ -17,6 +17,6 @@ function StatePlayerIdle()
 	
 	if (shooting = true)
 	{
-		state = states.shooting;
+		state = states.shoot;
 	}
 }

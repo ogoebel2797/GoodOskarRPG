@@ -12,6 +12,6 @@ else if global.enterRight
 
 else
 {
-	oPlayer.x = 62;
-	oPlayer.y = 893;
+	oPlayer.x = 63;
+	oPlayer.y = 703;
 }

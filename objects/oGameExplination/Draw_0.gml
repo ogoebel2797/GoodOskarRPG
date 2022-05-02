@@ -12,14 +12,16 @@ draw_text(32,500, "Don't Let The Turrets Shoot At You");
 draw_text(32,550, "When You See Mr. Squiggles, RUN");
 
 //Controls
-draw_text(700,32, "Movement Controls:");
-draw_text(700,75, "W = Up");
+draw_text(700,50, "Movement Controls:");
+draw_text(700,100, "W = Up");
 draw_text(700,150, "S = Down");
-draw_text(700,225, "A = Left");
-draw_text(700,300, "D = Right");
-draw_text(700,375, "Other Controls:");
-draw_text(700,450, "Control = Dash (When Green Gobbler)");
-draw_text(700,525, "E = Interact");
-draw_text(700,600, "Left Click = Shoot (When Player/In Spaceship)");
-draw_text(700,675, "Right Click = Grapple (When In Spaceship)");
-draw_text(700,750, "Run Into The Flag In The Bottom Right Corner To Begin!");
+draw_text(700,200, "A = Left");
+draw_text(700,250, "D = Right");
+draw_text(700,300, "Control = Dash (When Green Gobbler)");
+draw_text(700,350, "Shift = Slide (When Lean Man)");
+draw_text(700,400, "Right Click = Grapple (When In Spaceship)");
+draw_text(700,450, "Other Controls:");
+draw_text(700,500, "E = Interact");
+draw_text(700,550, "Left Click = Shoot (When Player/In Spaceship)");
+draw_text(700,600, "Alt = Attack (When Player)");
+draw_text(700,650, "Hold D To Begin!");

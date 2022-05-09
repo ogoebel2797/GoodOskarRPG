@@ -12,7 +12,7 @@ if global.isTransitioning
 		global.enterLeft = false;
 		global.enterRight = false;
 		global.isTransitioning = false;
-		global.transitionTimer = 1;
+		global.transitionTimer = 2;
 	}
 }
 

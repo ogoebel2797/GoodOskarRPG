@@ -6,12 +6,12 @@ if global.enterLeft
 
 else if global.enterRight
 {
-	oPlayer.x = global.xPos - ((room_width - 64) - sprite_width);
+	oPlayer.x = 31;
 	oPlayer.y = global.yPos;
 }
 
 else
 {
-	oPlayer.x = 30;
-	oPlayer.y = 670;
+	oPlayer.x = 31;
+	oPlayer.y = 671;
 }

@@ -15,6 +15,7 @@ function EnemyHurt()
 
 function EnemyDeath()
 {
+	array_push(oHUD.objectsDestroyed, other.persistentID)
 	instance_destroy(other);
 	if (random_range(0,10) > 4)
 	{

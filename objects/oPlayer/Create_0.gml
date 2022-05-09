@@ -2,7 +2,7 @@
 global.xPos = x;
 global.yPos = y;
 global.isTransitioning = false;
-global.transitionTimer = 1
+global.transitionTimer = 2;
 global.enterRight = false;
 global.enterLeft = false;
 global.col = 0;
